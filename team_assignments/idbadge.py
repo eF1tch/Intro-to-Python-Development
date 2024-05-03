@@ -1,0 +1,18 @@
+print('Please enter the following information: ')
+
+# first = input('What is your first name? ')
+# last = input('What is your last name? ')
+# email = input('What is your email adress? ')
+# phone = input('what is your phone number? ')
+# job = input('What is your job title? ' )
+# idnumber = input('What is your ID number? ')
+hair = input('What is your hair color? ')
+eye = input('What is your eye color? ')
+month = input('What month were you hired? ')
+train = input('Have you completed training? ')
+
+# print('Your ID Card is:\n--------------------------------------------')
+# print(f"{last.upper()},{first.capitalize()}\n{job.capitalize()}")
+# print(f"ID:{idnumber} \n")
+# print(f"{email}\n{phone}")
+print(f'Hair: {hair.capitalize()} {eye.capitalize():>10}')
